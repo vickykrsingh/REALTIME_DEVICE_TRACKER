@@ -1,4 +1,4 @@
-const socket = io()
+const socket = io("https://findyourfriends.vercel.app")
 console.log('first')
 
 if (navigator.geolocation) {
